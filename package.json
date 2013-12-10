@@ -1,9 +1,12 @@
 {
   "name": "generator-env-config",
-  "version": "0.0.0",
-  "description": "A generator for Yeoman",
+  "version": "0.0.1",
+  "description": "A Yeoman generator for environment specific configuration",
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator",
+    "environment",
+    "configuration",
+    "angularjs"
   ],
   "homepage": "https://github.com/stationkeeping/generator-env-config",
   "bugs": "https://github.com/stationkeeping/generator-env-config/issues",
