@@ -1,6 +1,6 @@
 # generator-env-config [![Build Status](https://secure.travis-ci.org/newtriks/generator-env-config.png?branch=master)](https://travis-ci.org/newtriks/generator-env-config)
 
-A generator for [Yeoman](http://yeoman.io).
+A generator for [Yeoman](http://yeoman.io). **env-config** generated environment specific json configuration files for use in your application. There is also an [AngularJS](http://angularjs.org/) sub-generator that creates a factory class to use for configuring your angular app using the env config json files.
 
 
 ## Getting Started
