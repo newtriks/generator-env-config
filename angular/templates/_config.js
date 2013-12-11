@@ -2,5 +2,5 @@
 
 angular.module('services.<%= name %>', [])
   .constant('configuration', {
-     foo: '@@foo'
+    foo: '@@foo'
   });
