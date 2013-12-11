@@ -2,6 +2,8 @@
 
 A generator for [Yeoman](http://yeoman.io). **env-config** generated environment specific json configuration files for use in your application. There is also an [AngularJS](http://angularjs.org/) sub-generator that creates a factory class to use for configuring your angular app using the env config json files.
 
+Example usage tutorial can be found [here](http://newtriks.com/2013/11/29/environment-specific-configuration-in-angularjs-using-grunt/).
+
 
 ## Getting Started
 
