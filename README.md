@@ -1,4 +1,4 @@
-# generator-env-config [![Build Status](https://secure.travis-ci.org/stationkeeping/generator-env-config.png?branch=master)](https://travis-ci.org/stationkeeping/generator-env-config)
+# generator-env-config [![Build Status](https://secure.travis-ci.org/newtriks/generator-env-config.png?branch=master)](https://travis-ci.org/stationkeeping/generator-env-config)
 
 A generator for [Yeoman](http://yeoman.io). **env-config** generated environment specific json configuration files for use in your application. There is also an [AngularJS](http://angularjs.org/) sub-generator that creates a factory class to use for configuring your angular app using the env config json files.
 
@@ -68,6 +68,4 @@ If you'd like to get to know Yeoman better and meet some of his friends, [Grunt]
 
 [MIT License](http://en.wikipedia.org/wiki/MIT_License)
 
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/stationkeeping/generator-env-config/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
