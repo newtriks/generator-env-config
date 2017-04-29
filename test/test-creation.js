@@ -5,9 +5,9 @@ var path    = require('path');
 var helpers = require('yeoman-generator').test;
 
 
-describe('env-config generator', function () {
+describe('env-config generator', () => {
     beforeEach(function (done) {
-        helpers.testDirectory(path.join(__dirname, 'temp'), function (err) {
+        helpers.testDirectory(path.join(__dirname, 'temp'), err => {
             if (err) {
                 return done(err);
             }
@@ -17,7 +17,7 @@ describe('env-config generator', function () {
                 '../../env'
             ]);
             done();
-        }.bind(this));
+        });
     });
 
     it('creates expected files and directories', function (done) {
@@ -28,16 +28,16 @@ describe('env-config generator', function () {
         ];
 
         this.app.options['skip-install'] = true;
-        this.app.run({}, function () {
+        this.app.run({}, () => {
             helpers.assertFiles(expected);
             done();
         });
     });
 });
 
-describe('env-config env sub-generator', function () {
+describe('env-config env sub-generator', () => {
     beforeEach(function (done) {
-        helpers.testDirectory(path.join(__dirname, 'temp'), function (err) {
+        helpers.testDirectory(path.join(__dirname, 'temp'), err => {
             if (err) {
                 return done(err);
             }
@@ -47,7 +47,7 @@ describe('env-config env sub-generator', function () {
             ],
             ['staging']);
             done();
-        }.bind(this));
+        });
     });
 
     it('creates expected files and directories', function (done) {
@@ -56,16 +56,16 @@ describe('env-config env sub-generator', function () {
         ];
 
         this.app.options['skip-install'] = true;
-        this.app.run({}, function () {
+        this.app.run({}, () => {
             helpers.assertFiles(expected);
             done();
         });
     });
 });
 
-describe('env-config angular sub-generator', function () {
+describe('env-config angular sub-generator', () => {
     beforeEach(function (done) {
-        helpers.testDirectory(path.join(__dirname, 'temp'), function (err) {
+        helpers.testDirectory(path.join(__dirname, 'temp'), err => {
             if (err) {
                 return done(err);
             }
@@ -75,7 +75,7 @@ describe('env-config angular sub-generator', function () {
             ],
             ['config']);
             done();
-        }.bind(this));
+        });
     });
 
     it('creates expected files and directories', function (done) {
@@ -84,7 +84,7 @@ describe('env-config angular sub-generator', function () {
         ];
 
         this.app.options['skip-install'] = true;
-        this.app.run({}, function () {
+        this.app.run({}, () => {
             helpers.assertFiles(expected);
             done();
         });
